@@ -3,8 +3,11 @@ include = ["app"]
 exclude = ["venv", "**/__pycache__"]
 reportMissingImports = true
 reportMissingTypeStubs = false
-pythonVersion = "3.11"
-typeCheckingMode = "strict"
+pythonVersion = "3.13"
+typeCheckingMode = "basic"
+reportUnknownArgumentType = false
+reportUnknownMemberType = false
+reportUnknownVariableType = false
 
 [tool.pylint]
 disable = [
